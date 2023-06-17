@@ -28,23 +28,31 @@ class Instructions extends Component {
                   Hover over the areas of the resume to find Edit and Add
                   buttons
                 </li>
+                <br></br>
                 <li>
                   Edit your information in the form fields and submit your edits
                 </li>
+                <br></br>
                 <li>
                   Add your Education and Experience or click on entries to
                   remove them
                 </li>
+                <br></br>
                 <li>
-                  When your done editing, use <code>CTRL</code> + <code>P</code>{" "}
+                  When your done editing, close all edit buttons,  use <code>CTRL</code> + <code>P</code>{" "}
                   (<code>CMND</code> + <code>P</code> on a Mac) to print your
                   resume to pdf
+                </li>{" "}
+                <br></br>
+                <li>
+                  Select 'Save as PDF' and check the 'Background graphics'
+                  option while unchecking the 'Headers and Footers' option under
+                  settings.
                 </li>
               </ul>
-                <button
-                type='button' onClick={this.toggleInstructions}>
-                    I GRAB
-                </button>
+              <button type="button" onClick={this.toggleInstructions}>
+                I GRAB
+              </button>
             </div>
           </div>
         )}

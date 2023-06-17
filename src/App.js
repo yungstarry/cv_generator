@@ -35,13 +35,13 @@ const App = () => {
           alignItems: "center",
         }}
       >
-        <button
+        {/* <button
           className="pdfbuttonstyle"
           type="button"
           onClick={handleDownloadPdf}
         >
           Download as PDF
-        </button>
+        </button> */}
       </div>
     </div>
   );
