@@ -24,9 +24,8 @@ class Instructions extends Component {
             <div className="container">
               <h2>Instructions</h2>
               <ul>
-                <li>
-                  Do NOT refresh the page until you save your Resume
-                </li>
+                <li>Do NOT refresh the page until you save your Resume</li>
+                <br></br>
                 <li>
                   Hover over the areas of the resume to find Edit and Add
                   buttons
@@ -42,9 +41,9 @@ class Instructions extends Component {
                 </li>
                 <br></br>
                 <li>
-                  When your done editing, close all edit buttons,  use <code>CTRL</code> + <code>P</code>{" "}
-                  (<code>CMND</code> + <code>P</code> on a Mac) to print your
-                  resume to pdf
+                  When your done editing, close all edit buttons, use{" "}
+                  <code>CTRL</code> + <code>P</code> (<code>CMND</code> +{" "}
+                  <code>P</code> on a Mac) to print your resume to pdf
                 </li>{" "}
                 <br></br>
                 <li>
