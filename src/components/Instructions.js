@@ -25,6 +25,9 @@ class Instructions extends Component {
               <h2>Instructions</h2>
               <ul>
                 <li>
+                  Do NOT refresh the page until you save your Resume
+                </li>
+                <li>
                   Hover over the areas of the resume to find Edit and Add
                   buttons
                 </li>
